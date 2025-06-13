@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+#ourinput {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 14px 18px;
+  border: 1.5px solid #bfc9d1;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 25px;
+  transition: border-color 0.2s;
+}
+
+#ourinput:focus {
+  border-color: #4f8cff;
+  outline: none;
+}
